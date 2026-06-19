@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_text_styles.dart';
+import '../../core/widgets/birthday_overlay.dart';
 import '../../core/widgets/footer.dart';
 import '../../core/widgets/nav_bar.dart';
 import '../../data/content/services_data.dart';
@@ -63,6 +64,13 @@ class _HomePageState extends State<HomePage> {
             top: 0, left: 0, right: 0,
             child: NavBar(isScrolled: _isScrolled),
           ),
+          if (isBirthday) ...[
+            const Positioned.fill(child: BirthdayConfetti()),
+            Positioned(
+              top: 72, left: 0, right: 0,
+              child: const BirthdayBanner(),
+            ),
+          ],
         ],
       ),
     );
