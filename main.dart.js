@@ -43547,7 +43547,7 @@ return A.aG(A.b([new A.VQ(r,s),new A.RR(r,s),new A.VU(s),new A.SH(r,s),new A.Yz(
 A.VQ.prototype={
 B(a){var s=null,r=A.ay(s,s,B.n,B.j,s,s,s,1,s,s,s,s,24),q=this.c.a===B.ar,p=q?"\u092a\u0930\u093f\u091a\u092f":"ABOUT",o=t.p
 p=A.by(A.b([r,B.aL,A.a1(p,s,s,s,A.cz(B.j,10,4),s,s),B.aL,A.ay(s,s,B.n,B.j,s,s,s,1,s,s,s,s,24)],o),B.q,B.l,B.av)
-r=q?"\u0938\u0902\u0926\u0940\u092a \u0935\u091f\u094d\u0938":"Sandeep Vats"
+r=q?"\u0938\u0902\u0926\u0940\u092a \u0935\u0924\u094d\u0938":"Sandeep Vats"
 r=A.r1(A.ey(A.ew(A.a1(r,s,s,s,A.cq(B.T,64,s,B.K,B.a9),s,s),s),A.bq(7e5,0)),0.1,B.ck,0)
 q=q?"\u091c\u094d\u092f\u094b\u0924\u093f\u0937 \u0906\u091a\u093e\u0930\u094d\u092f \xb7 \u0935\u093e\u0938\u094d\u0924\u0941 \u0935\u093f\u0936\u093e\u0930\u0926 \xb7 \u0935\u0948\u0926\u093f\u0915 \u091c\u094d\u092f\u094b\u0924\u093f\u0937\u0940":"Jyotish Acharya \xb7 Vastu Visharad \xb7 Vedic Astrologer"
 return A.ay(s,A.aG(A.b([p,B.aC,r,B.bG,A.ey(A.ew(A.a1(q,s,s,s,A.b5().$5$color$fontSize$fontWeight$height$letterSpacing(B.j.bm(0.8),14,B.k,s,0.5),s,s),A.bq(2e5,0)),A.bq(6e5,0))],o),B.q,B.l,B.o),B.n,s,s,B.fW,s,s,s,B.d1,s,s,1/0)}}
@@ -43808,7 +43808,7 @@ A.Uj.prototype={
 B(a){var s=null,r=t.t_
 return A.im(B.bX,A.b([A.aDb("assets/images/sandeep_photo.jpeg",B.Be,B.cT,s,s),A.Bt(0,A.kX(s,new A.ba(s,s,s,s,s,new A.hw(B.er,B.fP,B.bq,A.b([B.N,B.N.bm(0.55),B.N.bm(0)],r),B.Jf,s),B.B),B.c_)),A.Bt(0,A.kX(s,new A.ba(s,s,s,s,s,new A.hw(B.ep,B.fO,B.bq,A.b([B.N.bm(0.7),B.F],r),B.Jt,s),B.B),B.c_)),A.nD(24,A.f4(A.i1(s,s,s,new A.Ii(s),B.H),200,200),s,s,s,24,s,s)],t.p),B.n,B.RN,s)}}
 A.HC.prototype={
-B(a){var s,r,q,p,o,n,m,l=null,k="\u0938\u0902\u0926\u0940\u092a \u0935\u091f\u094d\u0938",j="Sandeep Vats",i="\u092a\u094d\u0930\u093e\u091a\u0940\u0928 \u091c\u094d\u091e\u093e\u0928 \u0938\u0947 \u0906\u092a\u0915\u0947\n\u091c\u0940\u0935\u0928 \u0915\u094b \u0930\u094b\u0936\u0928 \u0915\u0930\u0928\u093e",h="Illuminating Your Path\nThrough Ancient Wisdom",g=6e5,f=this.d,e=f?B.q:B.z,d=this.c,c=d.a===B.ar,b=c?"\u2726  \u0935\u0948\u0926\u093f\u0915 \u091c\u094d\u092f\u094b\u0924\u093f\u0937\u0940  \u2726":"\u2726  VEDIC ASTROLOGER  \u2726"
+B(a){var s,r,q,p,o,n,m,l=null,k="\u0938\u0902\u0926\u0940\u092a \u0935\u0924\u094d\u0938",j="Sandeep Vats",i="\u092a\u094d\u0930\u093e\u091a\u0940\u0928 \u091c\u094d\u091e\u093e\u0928 \u0938\u0947 \u0906\u092a\u0915\u0947\n\u091c\u0940\u0935\u0928 \u0915\u094b \u0930\u094b\u0936\u0928 \u0915\u0930\u0928\u093e",h="Illuminating Your Path\nThrough Ancient Wisdom",g=6e5,f=this.d,e=f?B.q:B.z,d=this.c,c=d.a===B.ar,b=c?"\u2726  \u0935\u0948\u0926\u093f\u0915 \u091c\u094d\u092f\u094b\u0924\u093f\u0937\u0940  \u2726":"\u2726  VEDIC ASTROLOGER  \u2726"
 b=A.ey(A.ew(A.a1(b,l,l,l,A.cz(B.j,11,4),l,l),l),A.bq(7e5,0))
 s=c?k:j
 s=A.r1(A.ey(A.ew(A.a1(s,l,l,l,A.cq(B.T,80,0.95,B.K,B.a9),l,l),A.bq(15e4,0)),A.bq(7e5,0)),0.08,B.ck,0)
