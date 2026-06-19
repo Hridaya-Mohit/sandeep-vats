@@ -11,7 +11,7 @@ class StringsHi {
 
   // Hero
   static const String heroLabel = '✦  वैदिक ज्योतिषी  ✦';
-  static const String heroName = 'संदीप वट्स';
+  static const String heroName = 'संदीप वत्स';
   static const String heroNameAlt = 'Sandeep Vats';
   static const String heroTagline = 'प्राचीन ज्ञान से आपके\nजीवन को रोशन करना';
   static const String heroTaglineAlt = 'Illuminating Your Path\nThrough Ancient Wisdom';
@@ -28,7 +28,7 @@ class StringsHi {
 
   // About page
   static const String aboutBannerLabel = 'परिचय';
-  static const String aboutBannerTitle = 'संदीप वट्स';
+  static const String aboutBannerTitle = 'संदीप वत्स';
   static const String aboutBannerSubtitle = 'ज्योतिष आचार्य · वास्तु विशारद · वैदिक ज्योतिषी';
   static const String aboutMyJourney = 'मेरी यात्रा';
   static const String aboutPhilosophyLabel = 'दर्शन';

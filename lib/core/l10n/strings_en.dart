@@ -12,7 +12,7 @@ class StringsEn {
   // Hero
   static const String heroLabel = '✦  VEDIC ASTROLOGER  ✦';
   static const String heroName = 'Sandeep Vats';
-  static const String heroNameAlt = 'संदीप वट्स';
+  static const String heroNameAlt = 'संदीप वत्स';
   static const String heroTagline = 'Illuminating Your Path\nThrough Ancient Wisdom';
   static const String heroTaglineAlt = 'प्राचीन ज्ञान से आपके\nजीवन को रोशन करना';
   static const String heroCtaPrimary = 'Book a Consultation';
