@@ -1,0 +1,14 @@
+.dart_tool/
+build/
+.idea/
+android/
+ios/
+linux/
+macos/
+windows/
+lib/
+test/
+*.dart
+*.yaml
+*.iml
+*.gradle
