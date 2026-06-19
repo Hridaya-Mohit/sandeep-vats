@@ -57,15 +57,8 @@ class _PageShellState extends State<PageShell> {
             top: 0, left: 0, right: 0,
             child: NavBar(isScrolled: _isScrolled),
           ),
-          if (isBirthday) ...[
-            // Confetti layer — full screen, pointer events ignored
-            const Positioned.fill(child: BirthdayConfetti()),
-            // Birthday banner — sticky below navbar
-            Positioned(
-              top: 72, left: 0, right: 0,
-              child: const BirthdayBanner(),
-            ),
-          ],
+          if (isBirthday)
+            const Positioned.fill(child: BirthdayOverlay()),
         ],
       ),
     );

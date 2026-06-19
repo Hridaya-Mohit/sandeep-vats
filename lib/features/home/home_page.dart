@@ -64,13 +64,8 @@ class _HomePageState extends State<HomePage> {
             top: 0, left: 0, right: 0,
             child: NavBar(isScrolled: _isScrolled),
           ),
-          if (isBirthday) ...[
-            const Positioned.fill(child: BirthdayConfetti()),
-            Positioned(
-              top: 72, left: 0, right: 0,
-              child: const BirthdayBanner(),
-            ),
-          ],
+          if (isBirthday)
+            const Positioned.fill(child: BirthdayOverlay()),
         ],
       ),
     );
