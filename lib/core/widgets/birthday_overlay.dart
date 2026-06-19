@@ -190,8 +190,7 @@ class _BirthdayOverlayState extends State<BirthdayOverlay>
             ),
             child: Row(
               children: [
-                const Spacer(),
-                Flexible(
+                Expanded(
                   child: Text(
                     '🎂  Happy Birthday, Jyotishacharya Pt. Sandeep Vats Ji  ✦  Wishing you a blessed and joyous birthday!',
                     style: AppTextStyles.inter(
@@ -202,7 +201,7 @@ class _BirthdayOverlayState extends State<BirthdayOverlay>
                     textAlign: TextAlign.center,
                   ),
                 ),
-                const Spacer(),
+                const SizedBox(width: 8),
                 GestureDetector(
                   onTap: _dismiss,
                   child: const Icon(Icons.close, size: 14, color: AppColors.goldMuted),

@@ -456,7 +456,7 @@ class _StatsRow extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          _StatItem(value: l10n.statYears,   label: l10n.statYearsLabel),
+          _StatItem(value: l10n.statYears,   label: l10n.statYearsLabel, first: true),
           _StatDivider(),
           _StatItem(value: l10n.statClients, label: l10n.statClientsLabel),
           _StatDivider(),
@@ -470,17 +470,22 @@ class _StatsRow extends StatelessWidget {
 class _StatItem extends StatelessWidget {
   final String value;
   final String label;
-  const _StatItem({required this.value, required this.label});
+  final bool first;
+  const _StatItem({required this.value, required this.label, this.first = false});
 
   @override
   Widget build(BuildContext context) {
+    final isNarrow = MediaQuery.of(context).size.width < 600;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20),
+      padding: EdgeInsets.only(
+        left: first ? 0 : (isNarrow ? 12 : 20),
+        right: isNarrow ? 12 : 20,
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(value, style: AppTextStyles.cormorant(fontSize: 38, color: AppColors.gold, weight: FontWeight.w500)),
-          Text(label,  style: AppTextStyles.inter(fontSize: 11, color: AppColors.textSubtle, letterSpacing: 0.5)),
+          Text(value, style: AppTextStyles.cormorant(fontSize: isNarrow ? 28 : 38, color: AppColors.gold, weight: FontWeight.w500)),
+          Text(label,  style: AppTextStyles.inter(fontSize: isNarrow ? 9 : 11, color: AppColors.textSubtle, letterSpacing: 0.5)),
         ],
       ),
     );

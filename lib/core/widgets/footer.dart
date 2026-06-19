@@ -270,25 +270,44 @@ class _BottomBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDesktop = MediaQuery.of(context).size.width > 900;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 18),
       decoration: const BoxDecoration(
         border: Border(top: BorderSide(color: AppColors.borderGold, width: 0.5)),
       ),
-      child: Row(
-        children: [
-          Text(
-            '© 2026 Sandeep Vats. All rights reserved.',
-            style: AppTextStyles.inter(fontSize: 12, color: AppColors.textSubtle),
-          ),
-          const Spacer(),
-          Text(
-            'Crafted with devotion ✦',
-            style: AppTextStyles.inter(fontSize: 12, color: AppColors.textSubtle),
-          ),
-        ],
-      ),
+      child: isDesktop
+          ? Row(
+              children: [
+                Text(
+                  '© 2026 Sandeep Vats. All rights reserved.',
+                  style: AppTextStyles.inter(fontSize: 12, color: AppColors.textSubtle),
+                ),
+                const Spacer(),
+                Text(
+                  'Crafted with devotion ✦',
+                  style: AppTextStyles.inter(fontSize: 12, color: AppColors.textSubtle),
+                ),
+              ],
+            )
+          : Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(
+                  '© 2026 Sandeep Vats. All rights reserved.',
+                  style: AppTextStyles.inter(fontSize: 11, color: AppColors.textSubtle),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 6),
+                Text(
+                  'Crafted with devotion ✦',
+                  style: AppTextStyles.inter(fontSize: 11, color: AppColors.textSubtle),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
     );
   }
 }
