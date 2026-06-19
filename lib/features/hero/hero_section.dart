@@ -206,11 +206,11 @@ class _HeroPhotoPanel extends StatelessWidget {
       clipBehavior: Clip.none,
       fit: StackFit.expand,
       children: [
-        // Full-height photo — shifted right to show Sandeep (white dhoti, center-right)
+        // Full-height photo — Sandeep is on the left (grey shirt, black bag)
         Image.asset(
           'assets/images/sandeep_photo.jpeg',
           fit: BoxFit.cover,
-          alignment: const Alignment(0.9, 0.0),
+          alignment: const Alignment(-0.8, 0.0),
         ),
 
         // Left-to-transparent gradient to blend with background
